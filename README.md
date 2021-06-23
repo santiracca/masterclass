@@ -62,21 +62,15 @@ In flutter, Integration testing erroneusly refers to E2E Testing. It is importan
 ##### NOTES
 Static methods in flutter cannot be mocked, if you need to mock a static method then create a wrapper class around the library.
 
-<hr>
-
-## Native
-
-### Method Channels
-
-<a href="https://flutter.dev/docs/development/platform-integration/platform-channels"> Method Channel Documentation </a>
-
-### Event Channels
-
-<a href="https://api.flutter.dev/flutter/services/EventChannel-class.html"> Flutter Event Channels </a>
 
 <hr>
 
 ## Features
+
+### Factory Constructors
+<a href="https://dart.dev/guides/language/language-tour#using-constructors"> Dart Constructors </a>
+<div> Factory constructors are very useful to deserialize data coming from a server into a model. Additionally they provide other useful usecases </div>
+<br />
 
 ### Generics
 
@@ -109,6 +103,21 @@ Generics in dart allow us to create composable classes and functions in order to
 Implementing the call method in a class allows us to call a class like a function
 
 <hr>
+
+
+
+## Native
+
+### Method Channels
+
+<a href="https://flutter.dev/docs/development/platform-integration/platform-channels"> Method Channel Documentation </a>
+
+### Event Channels
+
+<a href="https://api.flutter.dev/flutter/services/EventChannel-class.html"> Flutter Event Channels </a>
+
+<hr>
+
 
 ## Libraries
 
